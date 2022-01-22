@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillPhone } from 'react-icons/ai';
 import {FaDownload, FaGithub, FaLinkedinIn, } from 'react-icons/fa'
 import {SiGmail} from 'react-icons/si'
 
@@ -29,10 +30,15 @@ function Footer() {
                         <FaDownload className="animate-bounce"/>
                     </a>
                   </div>
+                  <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 hover:bg-green-300">
+                  <a className="text-3xl text-green-900 hover: cursor-pointer" href="tel:+919549093030">
+                        <AiFillPhone/>
+                    </a>
+                  </div>
                 </div>
 
                 <div className="flex justify-center mt-4">
-                    <span className="text-white sm:text-black">Made with 💙 <b>Zaid Jamal</b></span>
+                    <span className="text-white">Made with 💙 <b>Zaid Jamal</b></span>
                 </div>
         </footer>
         </div>

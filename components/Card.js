@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import {FaGithub, FaLinkedinIn, } from 'react-icons/fa'
+import { AiFillPhone } from 'react-icons/ai'
 import {SiGmail} from 'react-icons/si'
 import Image from 'next/image';
 function Card() {
@@ -40,6 +41,12 @@ function Card() {
                   <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 hover:bg-red-200">
                   <a className="text-3xl text-red-800 hover: cursor-pointer" href="mailto: iamzaidbinarshad@gmail.com">
                         <SiGmail/>
+                    </a>
+                  </div>
+
+                  <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 hover:bg-green-300">
+                  <a className="text-3xl text-green-900 hover: cursor-pointer" href="tel:+919549093030">
+                        <AiFillPhone/>
                     </a>
                   </div>
                 </div>

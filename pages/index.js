@@ -8,8 +8,10 @@ import Skills from '../components/Skills'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import {BsFillSunFill, BsFillMoonFill} from  'react-icons/bs'
-import Projects from '../components/Projects'
-
+import ProjectOne from '../components/ProjectOne'
+import ProjectTwo from '../components/ProjectTwo'
+//https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866004/Avatar/linkedin-main_lrryra.png
+//https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866002/Avatar/linkedin-login-page_cbkicn.png
 //https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login-google_fe3nqg.png
 //https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-main_wknblm.png
 //https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login_inhuiv.png
@@ -49,7 +51,10 @@ export default function Home() {
       </div>
         <Skills/>
         <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
-        <Projects  title={"Whatsapp-Clone-(Next.Js)"} link="https://whatsapp-next-five.vercel.app/" des1={"Whatsapp-Login-Page"} des2={"Whatsapp-Google-Login"} des3={"Whatsapp-1-to-1-Chat-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login_inhuiv.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login-google_fe3nqg.png" img3="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-main_wknblm.png"/>
+        <ProjectOne  title={"Whatsapp-Clone-(Next.Js)"} link="https://whatsapp-next-five.vercel.app/" des1={"Whatsapp-Login-Page"} des2={"Whatsapp-Google-Login"} des3={"Whatsapp-1-to-1-Chat-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login_inhuiv.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login-google_fe3nqg.png" img3="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-main_wknblm.png"/>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+        <ProjectTwo title={"LinkedIn-Clone-(React.Js)"} link="https://linkedin-clone-6a2f0.web.app/" des1={"LinkedIn-Login-Page"} des2={"LinkedIn-Main-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866002/Avatar/linkedin-login-page_cbkicn.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866004/Avatar/linkedin-main_lrryra.png"/>
         </div>
         <ContactMe/>
         <Footer/>

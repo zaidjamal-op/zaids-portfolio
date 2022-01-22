@@ -4,12 +4,12 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 
-function Projects({img1, img2, img3, des1, des2, des3 ,title, link}) {
+function ProjectTwo({img1, img2, des1, des2 ,title, link}) {
   return <div className="ml-6 xl:ml-32 pt-20 xl:pt-40">
       <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-3xl xl:text-5xl xl:pb-3">
           <h1>{title}</h1>
           <div className="flex items-center justify-center bg-white rounded-full w-8 h-8 hover:bg-gray-400">
-                   <a className="text-2xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/whatsapp-next">
+                   <a className="text-2xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/linkedIn-clone">
                         <FaGithub  className="text-black"/>
                     </a>
                     
@@ -19,14 +19,14 @@ function Projects({img1, img2, img3, des1, des2, des3 ,title, link}) {
           <a className="underline" href={`${link}`}>{link}</a>
       </div>
        <Carousel 
-       stopOnHover
+       
        width="95%"
        useKeyboardArrows
   autoPlay
   infiniteLoop
   showStatus={false}
   showIndicators={false}
-  showThumbs
+  showThumbs={false}
   interval={3000}>
   <div>
       <Image src={img1} alt="" width={1500} height={800} />
@@ -36,12 +36,9 @@ function Projects({img1, img2, img3, des1, des2, des3 ,title, link}) {
       <Image src={img2} alt="" width={1500} height={800} />
       <p className="legend">{des2}</p>
   </div>
-  <div>
-      <Image src={img3} alt="" width={1500} height={800} />
-      <p className="legend">{des3}</p>
-  </div>
+  
 </Carousel>
   </div>
 }
 
-export default Projects;
+export default ProjectTwo;
