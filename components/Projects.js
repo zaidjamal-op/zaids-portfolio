@@ -27,7 +27,7 @@ function Projects({img1, img2, img3, des1, des2, des3 ,title, link}) {
   showStatus={false}
   showIndicators={false}
   showThumbs
-  interval={5000}>
+  interval={3000}>
   <div>
       <Image src={img1} alt="" width={1500} height={800} />
       <p className="legend">{des1}</p>
