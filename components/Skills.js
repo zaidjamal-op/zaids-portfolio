@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import { FaCss3Alt, FaHtml5, FaNodeJs } from 'react-icons/fa';
 import {RiReactjsFill} from 'react-icons/ri';
@@ -23,7 +24,7 @@ function Skills() {
                     <span className="text-white sm:text-black whitespace-nowrap animate-bounce font-bold font-mono mt-2">React Native</span>
                 </div>
                 <div data-aos="flip-left" className="flex flex-col w-40 h-40 p-10 m-6 overflow-hidden items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg">
-                    <img className="bg-white rounded-full w-12 h-12" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642335238/Avatar/next_js_logo_icon_145038_vn5fag.png" alt=""/>
+                    <Image className="bg-white rounded-full" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642335238/Avatar/next_js_logo_icon_145038_vn5fag.png" alt="" width={50} height={60}/>
                     <span className="text-white sm:text-black whitespace-nowrap animate-bounce font-bold font-mono mt-2">Next Js</span>
                 </div>
                 <div data-aos="flip-right" className="flex flex-col w-40 h-40 p-10 m-6 overflow-hidden items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg">
@@ -31,7 +32,7 @@ function Skills() {
                     <span className="text-white sm:text-black whitespace-nowrap animate-bounce font-bold font-mono mt-2">Javascript</span>
                 </div>
                 <div data-aos="flip-left" className="flex flex-col w-40 h-40 p-10 m-6 overflow-hidden items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg">
-                <img className="w-12 h-12" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642350403/Avatar/mascot_firebase-logo_ma5fxk.png" alt=""/>
+                <Image className="" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642350403/Avatar/mascot_firebase-logo_ma5fxk.png" alt="" width={50} height={60}/>
                     <span className="text-white sm:text-black whitespace-nowrap animate-bounce font-bold font-mono mt-2">Firebase</span>
                 </div>
                 <div data-aos="flip-right" className="flex flex-col w-40 h-40 p-10 m-6 overflow-hidden items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg">
@@ -43,7 +44,7 @@ function Skills() {
                     <span className="text-white sm:text-black whitespace-nowrap animate-bounce font-bold font-mono mt-2">Redux</span>
                 </div>
                 <div data-aos="flip-right" className="flex flex-col w-40 h-40 p-10 m-6 overflow-hidden items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg">
-                    <img className="w-12 h-12" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642336157/Avatar/Figma-logo_mtlo1v.svg" alt=""/>
+                    <Image className="" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642336157/Avatar/Figma-logo_mtlo1v.svg" alt="" width={70} height={70}/>
                     <span className="text-white sm:text-black whitespace-nowrap animate-bounce font-bold font-mono mt-2">Figma</span>
                 </div>
                 <div data-aos="flip-left" className="flex flex-col w-40 h-40 p-10 m-6 overflow-hidden items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg">

@@ -7,7 +7,7 @@ function About() {
             <p className=" text-2xl text-white md:text-4xl font-bold text-center">
                 Hey! 
             </p>
-            <p className="text-base sm:text-xl text-center text-white/70 leading-relaxed mt-4">
+            <p className="text-base xl:text-xl text-center text-white/70 leading-relaxed mt-4">
                 I'm a passionate <b className="text-white">Frontend Developer</b> (for React and React Native). I love to convert UI design into the real using React. I also love freelancing and working on open source projects.
             </p>
             <ScrollIntoView selector="#skills">
