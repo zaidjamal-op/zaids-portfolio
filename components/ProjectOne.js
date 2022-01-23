@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Image from "next/image";
+//import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 
@@ -26,18 +26,18 @@ function ProjectOne({img1, img2, img3, des1, des2, des3 ,title, link}) {
   infiniteLoop
   showStatus={false}
   showIndicators={false}
-  showThumbs={false}
+  showThumbs
   interval={3000}>
   <div>
-      <Image src={img1} alt="" width={1500} height={800} />
+      <img src={img1} alt=""/>
       <p className="legend">{des1}</p>
   </div>
   <div>
-      <Image src={img2} alt="" width={1500} height={800} />
+      <img src={img2} alt=""/>
       <p className="legend">{des2}</p>
   </div>
   <div>
-      <Image src={img3} alt="" width={1500} height={800} />
+      <img src={img3} alt=""/>
       <p className="legend">{des3}</p>
   </div>
 </Carousel>
