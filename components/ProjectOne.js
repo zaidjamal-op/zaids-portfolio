@@ -5,8 +5,8 @@ import { FaGithub } from "react-icons/fa";
 
 
 function ProjectOne({img1, img2, img3, des1, des2, des3 ,title, link}) {
-  return <div className="ml-6 xl:ml-32 pt-20 xl:pt-40">
-      <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-3xl xl:text-5xl xl:pb-3">
+  return <div className="ml-16 xl:ml-64 pt-20 xl:pt-40">
+      <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-2xl xl:text-5xl xl:pb-3 whitespace-nowrap">
           <h1>{title}</h1>
           <div className="flex items-center justify-center bg-white rounded-full w-8 h-8 hover:bg-gray-400">
                    <a className="text-2xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/whatsapp-next">
@@ -20,7 +20,7 @@ function ProjectOne({img1, img2, img3, des1, des2, des3 ,title, link}) {
       </div>
        <Carousel 
        
-       width="95%"
+       width="80%"
        useKeyboardArrows
   autoPlay
   infiniteLoop

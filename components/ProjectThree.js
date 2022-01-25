@@ -4,12 +4,12 @@ import { Carousel } from 'react-responsive-carousel';
 import { FaGithub } from "react-icons/fa";
 
 
-function ProjectTwo({img1, img2, des1, des2 ,title, link}) {
+function ProjectThree({img1, img2, img3, img4, img5,  des1, des2, des3, des4, des5, title, link}) {
   return <div className="ml-16 xl:ml-64 pt-20 xl:pt-40">
-      <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-2xl xl:text-5xl xl:pb-3 whitespace-nowrap">
+      <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-2xl xl:text-5xl xl:pb-3">
           <h1>{title}</h1>
           <div className="flex items-center justify-center bg-white rounded-full w-8 h-8 hover:bg-gray-400">
-                   <a className="text-2xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/linkedIn-clone">
+                   <a className="text-2xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/Twitter-clone">
                         <FaGithub  className="text-black"/>
                     </a>
                     
@@ -36,9 +36,20 @@ function ProjectTwo({img1, img2, des1, des2 ,title, link}) {
       <img src={img2} alt=""/>
       <p className="legend">{des2}</p>
   </div>
-  
+  <div>
+      <img src={img3} alt=""/>
+      <p className="legend">{des3}</p>
+  </div>
+  <div>
+      <img src={img4} alt=""/>
+      <p className="legend">{des4}</p>
+  </div>
+  <div>
+      <img src={img5} alt=""/>
+      <p className="legend">{des5}</p>
+  </div>
 </Carousel>
   </div>
 }
 
-export default ProjectTwo;
+export default ProjectThree;
