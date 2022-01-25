@@ -3,9 +3,9 @@ import { FaArrowRight } from 'react-icons/fa'
 
 function ContactMe() {
     return (
-        <div className="max-w-4xl  text-center m-auto pt-36 pb-10">
+        <div className="max-w-[250px] xl:max-w-2xl text-center m-auto pt-36 pb-10">
             <div data-aos="fade-right" data-aos-duration="500">
-            <h1 className="text-2xl sm:text-4xl text-white"><b>Interested in working together ?</b></h1>
+            <h1 className="text-lg xl:text-4xl text-white"><b>Interested in working together ?</b></h1>
             </div>
             <div data-aos="fade-left" data-aos-duration="500">
             <a className="pt-4" href="mailto: iamzaidbinarshad@gmail.com">

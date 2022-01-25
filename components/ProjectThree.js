@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 
 function ProjectThree({img1, img2, img3, img4, img5,  des1, des2, des3, des4, des5, title, link}) {
-  return <div className="ml-16 xl:ml-64 pt-20 xl:pt-40">
+  return <div className="pb-10 pt-10 xl:pt-20 xl:pb-20">
       <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-2xl xl:text-5xl xl:pb-3">
           <h1>{title}</h1>
           <div className="flex items-center justify-center bg-white rounded-full w-8 h-8 hover:bg-gray-400">
@@ -18,10 +18,7 @@ function ProjectThree({img1, img2, img3, img4, img5,  des1, des2, des3, des4, de
       <div className="text-white mb-2 xl:pb-3">
           <a className="underline" href={`${link}`}>{link}</a>
       </div>
-       <Carousel 
-       
-       width="80%"
-       useKeyboardArrows
+       <Carousel
   autoPlay
   infiniteLoop
   showStatus={false}

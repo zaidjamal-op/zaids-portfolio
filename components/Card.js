@@ -4,11 +4,14 @@ import {FaGithub, FaLinkedinIn, } from 'react-icons/fa'
 import { AiFillPhone } from 'react-icons/ai'
 import {SiGmail} from 'react-icons/si'
 import Image from 'next/image';
+import Tilt from 'react-tilt'
 function Card() {
     return (
-        <div className="w-full">
+        <Tilt className="Tilt" options={{ max : 35 }}  >
+ 
 
-            <div className = "flex flex-col justify-center  max-w-sm mx-auto rounded-lg bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400">
+        <div className="w-full Tilt-inner">
+            <div className = "flex flex-col justify-center  max-w-sm mx-auto rounded-lg bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 ">
                 <div className="flex justify-center my-2">
                     <Image className="rounded-full" src="https://i.pinimg.com/564x/de/52/b7/de52b7bd3fbd77d5ca765bb6c40b3eb0.jpg" alt="" width={140} height={140}/>
                 </div>
@@ -53,6 +56,7 @@ function Card() {
             </div>
             
         </div>
+        </Tilt>
     )
 }
 
