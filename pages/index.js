@@ -31,17 +31,16 @@ export default function Home() {
         <link  rel="icon" href="https://res.cloudinary.com/dqmlanbbj/image/upload/v1640190776/Avatar/ZAIDOP_wtii2t.jpg" />
       </Head>
 
-      <div className="flex justify-end items-center -mr-5 xl:mr-5 p-2 cursor-pointer top-0 sticky " >
           {dark === true ? (
-            <div className="flex items-center justify-center w-9 h-9 rounded-full hover:bg-yellow-100" onClick={() => setDark(false)}>
-              <BsFillSunFill className="text-yellow-500"/>
+            <div className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-yellow-100 text-3xl cursor-pointer -mt-4 mb-3 xl:mb-0" onClick={() => setDark(false)}>
+              <BsFillSunFill className="text-yellow-500 "/>
             </div>
           ) : (
-            <div className="flex items-center justify-center w-9 h-9 rounded-full hover:bg-black" onClick={() => setDark(true)}>
+            <div className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-black text-3xl cursor-pointer -mt-4 mb-3 xl:mb-0" onClick={() => setDark(true)}>
               <BsFillMoonFill className="text-white"/>
             </div>
           )}
-        </div>
+        
       
       <div data-aos="fade-down" data-aos-duration="800">
       <Card />

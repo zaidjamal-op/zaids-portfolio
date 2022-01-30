@@ -11,11 +11,11 @@ function Card() {
  
 
         <div className="w-full Tilt-inner">
-            <div className = "flex flex-col justify-center  max-w-sm mx-auto rounded-lg bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 ">
+            <div className = "flex flex-col justify-center  max-w-sm mx-auto rounded-lg bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg">
                 <div className="flex justify-center my-2">
                     <Image className="rounded-full" src="https://i.pinimg.com/564x/de/52/b7/de52b7bd3fbd77d5ca765bb6c40b3eb0.jpg" alt="" width={140} height={140}/>
                 </div>
-                <div className="text-center my-2 text-white text-2xl font-sans">
+                <div className="text-center my-2 text-black text-2xl font-sans">
                 <Typewriter
   options={{
     strings: ['ZAID JAMAL '],
@@ -25,7 +25,7 @@ function Card() {
 />
                 </div>
 
-                <div className="text-center my-2 text-white text-base font-sans">
+                <div className="text-center my-2 text-black text-base font-sans">
                     <h4>React Frontend Developer/ UI Designer</h4>
                 </div>
                 <div className="flex justify-center space-x-5 my-2 ">
@@ -52,6 +52,7 @@ function Card() {
                         <AiFillPhone/>
                     </a>
                   </div>
+                  
                 </div>
             </div>
             

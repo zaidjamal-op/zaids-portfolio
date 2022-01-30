@@ -11,7 +11,7 @@ function About() {
                 I'm a passionate <b className="text-white">Frontend Developer</b> (for React and React Native). I love to convert UI design into the real using React. I also love freelancing and working on open source projects.
             </p>
             <ScrollIntoView selector="#skills">
-                <div className="mx-auto p-20 hover: cursor-pointer">
+                <div className="mx-auto p-16 hover: cursor-pointer">
                     <FaChevronDown className="animate-bounce mx-auto text-3xl text-white"/>
                 </div>
             </ScrollIntoView>

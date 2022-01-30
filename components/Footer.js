@@ -6,7 +6,7 @@ import {SiGmail} from 'react-icons/si'
 function Footer() {
     return (
         <div >
-            <footer className="py-8 bg-white backdrop-filter backdrop-blur-md bg-opacity-30 border-2 border-gray-400 rounded-lg mt-16">
+            <footer className="py-8 bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg mt-16">
             <div className="flex justify-center space-x-5 my-2 ">
                    <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 hover:bg-gray-400">
                    <a className="text-3xl  hover: cursor-pointer" href="https://github.com/zaidjamal-op">
@@ -38,7 +38,7 @@ function Footer() {
                 </div>
 
                 <div className="flex justify-center mt-4">
-                    <span className="text-white">Made with 💙 <b>Zaid Jamal</b></span>
+                    <span className="text-black">Made with 💙 <b>Zaid Jamal</b></span>
                 </div>
         </footer>
         </div>

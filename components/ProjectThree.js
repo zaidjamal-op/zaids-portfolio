@@ -8,8 +8,8 @@ function ProjectThree({img1, img2, img3, img4, img5,  des1, des2, des3, des4, de
   return <div className="pb-10 pt-10 xl:pt-20 xl:pb-20">
       <div className="flex flex-row items-center space-x-2 text-white font-bold mb-2 text-2xl xl:text-5xl xl:pb-3">
           <h1>{title}</h1>
-          <div className="flex items-center justify-center bg-white rounded-full w-8 h-8 hover:bg-gray-400">
-                   <a className="text-2xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/Twitter-clone">
+          <div className="flex items-center justify-center bg-white rounded-full w-5 h-5 hover:bg-gray-400">
+                   <a className="text-xl   hover: cursor-pointer" href="https://github.com/zaidjamal-op/Twitter-clone">
                         <FaGithub  className="text-black"/>
                     </a>
                     
