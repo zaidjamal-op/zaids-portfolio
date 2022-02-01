@@ -11,6 +11,8 @@ import {BsFillSunFill, BsFillMoonFill} from  'react-icons/bs'
 import ProjectOne from '../components/ProjectOne'
 import ProjectTwo from '../components/ProjectTwo'
 import ProjectThree from '../components/ProjectThree'
+import ProjectFour from '../components/ProjectFour'
+import ProjectFive from '../components/ProjectFive'
 //https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866004/Avatar/linkedin-main_lrryra.png
 //https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866002/Avatar/linkedin-login-page_cbkicn.png
 //https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login-google_fe3nqg.png
@@ -50,14 +52,20 @@ export default function Home() {
       </div>
       <Skills/>
       <div className="max-w-5xl mx-auto">
-      <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+      <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="200">
         <ProjectOne  title={"Whatsapp-Clone(Next.Js)"} link="https://whatsapp-next-five.vercel.app/" des1={"Whatsapp-Login-Page"} des2={"Whatsapp-Google-Login"} des3={"Whatsapp-1-to-1-Chat-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login_inhuiv.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login-google_fe3nqg.png" img3="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-main_wknblm.png"/>
         </div>
-        <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+        <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="200">
         <ProjectTwo title={"LinkedIn-Clone(React.Js)"} link="https://linkedin-clone-6a2f0.web.app/" des1={"LinkedIn-Login-Page"} des2={"LinkedIn-Main-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866002/Avatar/linkedin-login-page_cbkicn.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866004/Avatar/linkedin-main_lrryra.png"/>
         </div>
-        <div data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+        <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="200">
         <ProjectThree title={"Twitter-Clone(Next.js)"} link="https://twitter-clone-recoil.vercel.app/" des1={"Twitter-Login-Page"} des2={"Twitter-Home-Page"} des3={"Twitter-Comment-Modal"} des4={"Twitter-Comment-Page"} des5={"Twitter-Like-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123448/Avatar/Twitter-Login-Page_wnksmj.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123452/Avatar/Twitter-Home-Page_ypdf1b.png" img3="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123451/Avatar/Twitter-Comment-Modal_xh1qaf.png" img4="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123453/Avatar/Twitter-Comment-Page_r1glbt.png" img5="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123451/Avatar/Twitter-Like-Page_vnzkf5.png"/>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="200">
+        <ProjectFour title={"Coinbase-web3(Next.js)"} link="https://coinbase-web3.vercel.app/" des1={"Coinbase-Login-Page"} des2={"Coinbase-Home-Page"} des3={"Coinbase-Home-Page"} des4={"Send-Modal-Page"} des5={"Coin-Selecter-Page"} des6={"Receive-Modal-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730921/Avatar/coinbase-login_bdzlfr.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730922/Avatar/coinbase-main1_hcyjst.png" img3="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730922/Avatar/coinbase-main2_j7a5h2.png" img4="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730923/Avatar/coinbase-modal1_qk3hba.png" img5="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730923/Avatar/coinbase-modal2_bunnwq.png" img6="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730924/Avatar/coinbase-modal3_saaumd.png"/>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="400" data-aos-delay="200">
+        <ProjectFive title={"Amazon-Clone(Next.js)"} des1={"Amazon-Login-Page"} des2={"Amazon-Home-Page"} des3={"Amazon-Home-Page"} des4={"Amazon-Basket-Page"} des5={"Amazon-Stripe-Session-Checkout-Page"} des6={"Amazon-ThankYou-Page"} img1="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734033/Avatar/Amzn-Login_b6tice.png" img2="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734038/Avatar/Amzn-main1_kdtevs.png" img3="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734039/Avatar/Amzn-main2_ml80yc.png" img4="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734045/Avatar/Amzn-basket_squu2y.png" img5="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734035/Avatar/Amzn-Stripe-session-checkout_nx88bl.png" img6="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734035/Avatar/amzn-thankyou_ctuyen.png"/>
         </div>
       </div>
       <Footer/>
