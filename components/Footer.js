@@ -26,7 +26,7 @@ function Footer() {
                     </a>
                   </div>
                   <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 hover:bg-lime-200">
-                  <a className="text-2xl text-lime-800 hover: cursor-pointer" href="https://drive.google.com/file/d/1O2VwSqK05i_XgC-a5q7nv2y0L-ZD3msN/view?usp=sharing">
+                  <a className="text-2xl text-lime-800 hover: cursor-pointer" href="https://drive.google.com/file/d/1eAeormEQRwohauQfmlYG5uW85h8z_R7O/view?usp=sharing">
                         <FaDownload className="animate-bounce"/>
                     </a>
                   </div>
