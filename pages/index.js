@@ -85,13 +85,16 @@ export default function Home() {
           data-aos-delay="200"
         >
           {data.map((d, i) => (
-            <Projects
-              key={i}
-              title={d.title}
-              link={d.deployedlink}
-              githublink={d.githublink}
-              carousel={d.carousel}
-            />
+            <div key={i}>
+              <Projects
+                title={d.title}
+                link={d.deployedlink}
+                githublink={
+                  d.githublink
+                }
+                carousel={d.carousel}
+              />
+            </div>
           ))}
         </div>
       </div>
