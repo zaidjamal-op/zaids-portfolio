@@ -86,6 +86,7 @@ export default function Home() {
         >
           {data.map((d, i) => (
             <Projects
+              key={i}
               title={d.title}
               link={d.deployedlink}
               githublink={d.githublink}
