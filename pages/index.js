@@ -44,7 +44,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="ZAID CRYPTO PUNK Latest New.png"
+          href="https://res.cloudinary.com/dqmlanbbj/image/upload/v1681779308/ZAID_CRYPTO_PUNK_Latest_New_kkbfgf.png"
         />
       </Head>
 
