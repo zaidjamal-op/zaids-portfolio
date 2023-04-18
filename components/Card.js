@@ -7,6 +7,7 @@ import {
 import { AiFillPhone } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 import Image from "next/image";
+import ProfilePic from "../assets/ZAID CRYPTO PUNK Latest New.png";
 import Tilt from "react-tilt";
 function Card() {
   return (
@@ -19,7 +20,7 @@ function Card() {
           <div className="flex justify-center my-2">
             <Image
               className="rounded-full"
-              src="https://i.pinimg.com/564x/de/52/b7/de52b7bd3fbd77d5ca765bb6c40b3eb0.jpg"
+              src={ProfilePic}
               alt=""
               width={140}
               height={140}
