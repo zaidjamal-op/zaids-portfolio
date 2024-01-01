@@ -40,8 +40,7 @@ function Card() {
 
           <div className="text-center my-2 text-black text-base font-sans">
             <h4>
-              Frontend Developer
-              (web3.0) / UI Designer
+              Fullstack Developer 
             </h4>
           </div>
           <div className="flex justify-center space-x-5 my-2 ">
@@ -64,7 +63,7 @@ function Card() {
             <div className="flex items-center justify-center bg-white rounded-full w-10 h-10 hover:bg-red-200">
               <a
                 className="text-3xl text-red-800 hover: cursor-pointer"
-                href="mailto: iamzaidbinarshad@gmail.com"
+                href="mailto: zaidjamalop@gmail.com"
               >
                 <SiGmail />
               </a>
