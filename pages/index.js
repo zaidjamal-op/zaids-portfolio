@@ -16,7 +16,6 @@ import {
 } from "react-icons/bs";
 import Projects from "../components/Projects";
 import data from "../data/data.json";
-import ProfilePicture from "../assets/ZAID CRYPTO PUNK Latest New.png";
 
 export default function Home() {
   const [dark, setDark] =
