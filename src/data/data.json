@@ -1,0 +1,91 @@
+[{
+    "title": "Whatsapp-Clone(Next.Js)",
+    "githublink": "https://github.com/zaidjamal-op/whatsapp-next",
+    "deployedlink": "https://whatsapp-next-five.vercel.app/",
+    "carousel": [
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login_inhuiv.png",
+            "description": "Whatsapp-Login-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-login-google_fe3nqg.png",
+        "description":"Whatsapp-Google-Login"},
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1642853455/Avatar/whatsapp-main_wknblm.png",
+        "description": "Whatsapp-1-to-1-Chat-Page"}
+    ]
+},{
+    "title": "LinkedIn-Clone(React.Js)",
+    "githublink": "https://github.com/zaidjamal-op/linkedIn-clone",
+    "deployedlink": "https://linkedin-clone-6a2f0.web.app/",
+    "carousel": [
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866002/Avatar/linkedin-login-page_cbkicn.png",
+            "description": "LinkedIn-Login-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1642866004/Avatar/linkedin-main_lrryra.png",
+        "description":"LinkedIn-Main-Page"}
+        
+    ]
+},
+{
+    "title": "Twitter-Clone(Next.js)",
+    "githublink": "https://github.com/zaidjamal-op/Twitter-clone",
+    "deployedlink": "https://twitter-clone-recoil.vercel.app/",
+    "carousel": [
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123448/Avatar/Twitter-Login-Page_wnksmj.png",
+            "description": "Twitter-Login-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123452/Avatar/Twitter-Home-Page_ypdf1b.png",
+        "description":"Twitter-Home-Page"},
+         {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123451/Avatar/Twitter-Comment-Modal_xh1qaf.png",
+            "description": "Twitter-Comment-Modal"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123453/Avatar/Twitter-Comment-Page_r1glbt.png",
+        "description":"Twitter-Comment-Page"},
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643123451/Avatar/Twitter-Like-Page_vnzkf5.png",
+        "description":"Twitter-Like-Page"}
+        
+    ]
+},
+{
+    "title": "Coinbase-web3(Next.js)",
+    "githublink": "https://github.com/zaidjamal-op/Coinbase-web3.0",
+    "deployedlink": "https://coinbase-web3.vercel.app/",
+    "carousel": [
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730921/Avatar/coinbase-login_bdzlfr.png",
+            "description": "Coinbase-Login-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730922/Avatar/coinbase-main1_hcyjst.png",
+        "description":"Coinbase-Home-Page"},
+         {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730922/Avatar/coinbase-main2_j7a5h2.png",
+            "description": "Coinbase-Home-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730923/Avatar/coinbase-modal1_qk3hba.png",
+        "description":"Send-Modal-Page"},
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730923/Avatar/coinbase-modal2_bunnwq.png",
+        "description":"Coin-Selecter-Page"},
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643730924/Avatar/coinbase-modal3_saaumd.png",
+        "description":"Receive-Modal-Page"}
+        
+    ]
+},
+{
+    "title": "Amazon-Clone(Next.js)",
+    "githublink": "https://github.com/zaidjamal-op/Amazon-clone-stripe",
+    "deployedlink": "",
+    "carousel": [
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734033/Avatar/Amzn-Login_b6tice.png",
+            "description": "Amazon-Login-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734038/Avatar/Amzn-main1_kdtevs.png",
+        "description":"Amazon-Home-Page"},
+         {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734039/Avatar/Amzn-main2_ml80yc.png",
+            "description": "Amazon-Home-Page"
+        },
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734045/Avatar/Amzn-basket_squu2y.png",
+        "description":"Amazon-Basket-Page"},
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734035/Avatar/Amzn-Stripe-session-checkout_nx88bl.png",
+        "description":"Amazon-Stripe-Session-Checkout-Page"},
+        {"img": "https://res.cloudinary.com/dqmlanbbj/image/upload/v1643734035/Avatar/amzn-thankyou_ctuyen.png",
+        "description":"Amazon-ThankYou-Page"}
+        
+    ]
+}
+]
