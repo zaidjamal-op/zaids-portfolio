@@ -43,7 +43,7 @@ function Skills() {
                     <span className="text-black whitespace-nowrap animate-bounce font-bold xl:font-mono mt-2 text-[12px] xl:text-xl">Redux</span>
                 </div>
                 <div data-aos="flip-right" className="flex flex-col w-20 h-20  xl:w-40 xl:h-40 p-1 xl:p-10 m-1 xl:m-6 overflow-hidden items-center bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg">
-                    <img className="" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642336157/Avatar/Figma-logo_mtlo1v.svg" alt="" width={70} height={70}/>
+                    <img className="" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1642336157/Avatar/Figma-logo_mtlo1v.svg" alt="" width={50} height={60}/>
                     <span className="text-black whitespace-nowrap animate-bounce font-bold xl:font-mono mt-2 text-[12px] xl:text-xl">Figma</span>
                 </div>
                 <div data-aos="flip-left" className="flex flex-col w-20 h-20  xl:w-40 xl:h-40 p-1 xl:p-10 m-1 xl:m-6 overflow-hidden items-center bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg">
@@ -59,11 +59,6 @@ function Skills() {
                     <span className="text-black whitespace-nowrap animate-bounce font-bold xl:font-mono mt-2 text-[12px] xl:text-xl">Tailwind css</span>
 
                 </div>
-                <div data-aos="flip-right" className="flex flex-col w-20 h-20  xl:w-40 xl:h-40 p-1 xl:p-10 m-1 xl:m-6 overflow-hidden items-center bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg">
-                    <SiStyledcomponents className="text-pink-700 text-9xl"/>
-                    <span className="text-black animate-bounce font-bold xl:font-mono mt-1 text-[12px] xl:text-xl">Styled Components</span>
-                    
-                </div>
 
                 <div data-aos="flip-right" className="flex flex-col w-20 h-20  xl:w-40 xl:h-40 p-1 xl:p-10 m-1 xl:m-6 overflow-hidden items-center bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg">
                     <SiElectron className="text-[#097e95] text-9xl"/>
@@ -71,7 +66,7 @@ function Skills() {
                     
                 </div>
 
-                <div data-aos="flip-right" className="flex flex-col w-20 h-20  xl:w-40 xl:h-40 p-1 xl:p-10 m-1 xl:m-6 overflow-hidden items-center bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg">
+                <div data-aos="flip-right" className="flex flex-col w-20 h-20  xl:w-40 xl:h-40 p-1 xl:p-10 m-1 xl:m-6 overflow-hidden items-center justify-center bg-white backdrop-filter bg-opacity-60 backdrop-blur-lg rounded-lg">
                 <img className="" src="https://res.cloudinary.com/dqmlanbbj/image/upload/v1643125414/Avatar/logo_uvusp1.svg" alt="" width={60} height={60}/>
                     <span className="text-black whitespace-nowrap animate-bounce font-bold xl:font-mono mt-2 text-[12px] xl:text-xl">Recoil</span> 
                 </div>
